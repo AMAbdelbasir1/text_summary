@@ -1,3 +1,5 @@
 flaskwithface.py
 flasklms.py
 *.txt
+*.docx
+*.pdf
