@@ -155,6 +155,7 @@ def handle_summarize_request():
             'lengthSUMMARY': len(cleaned_summary),
             'lengthTEXT': len(text),
             'language': language,
+            "filename": filename
         }), 200
     except Exception as e:
         # print(e)
